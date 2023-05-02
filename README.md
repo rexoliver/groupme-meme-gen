@@ -28,12 +28,12 @@ These instructions will help you set up a local copy of the project and get it u
 
 1. Clone the repository:
 
-git clone https://github.com/your_username/groupme-media-downloader.git
+`git clone https://github.com/your_username/groupme-media-downloader.git`
 
 
 2. Install the required dependencies:
 
-pip install -r requirements.txt
+`pip install requests`
 
 
 ## Usage

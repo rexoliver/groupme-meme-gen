@@ -26,7 +26,7 @@ def get_messages(access_token, group_id, before_id=None, max_retries=3):
 ACCESS_TOKEN = os.environ['GROUPME_ACCESS_TOKEN']
 
 # Set up the group ID
-GROUP_ID = '48214610'
+GROUP_ID = os.environ['GROUPME_GROUP_ID']
 
 # Create a folder for media if it doesn't exist
 if not os.path.exists('media'):
